@@ -4,11 +4,11 @@
  * L&T quote generator
  */
 
-var things = ["Music", "Art", "Dance", "Theater", "Math", "Architecture"];
-var programmers = ["musician", "artist", "choreographer", "director", "mathematician", "architect"]
-var castles = ["museums", "bridges", "cities"]
-var exertions = ["effort", "strain", "struggle", "toil", "endeavor", "hard work", "labor"];
-var airs = ["sky", "atmosphere", "heavens", "ether", "wind"];
+var things = ["Tic tac", "Push pin", "Computer", "World", "Universe", "Man"];
+var programmers = ["enginner", "child", "mother", "father", "brother-in-law", "cousin"]
+var castles = ["fortresses", "strongholds", "mothers"]
+var exertions = ["scream", "suffer", "cry", "draw", "attack", "care", "create"];
+var airs = ["earth", "hell itself", "heavens", "ether", "wind"];
 
 function choosei(lst){
     var i = Math.floor(Math.random() * lst.length);
@@ -32,10 +32,10 @@ document.getElementById("person").innerHTML = programmer + "s";
 var q = document.getElementById("quote");
 
 q.innerHTML =
-    "\"The " + programmer +
-    ", like the poet, works only slightly removed from pure thought-stuff. He builds his " +
+    "\"A " + programmer +
+    ", like the grim reaper, works only slightly removed from pure thought-stuff. He builds his " +
     castles + " in the " + air + ", from " + air + ", creating by " + exertion + " of the imagination.\"" +
-    "\u2014" +  "Fred Brooks, " + programmer;
+    "\u2014" +  "Noah, " + programmer;
 
 q.innerHTML += "<br><br><br>";
 
