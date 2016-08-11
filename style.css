@@ -1,5 +1,5 @@
 body {
-    background-color: #161616;
+    background-color: #0066ff;
     color: #D7CEC7;
     font-size: 150%;
     line-height: 1.4;
@@ -62,8 +62,8 @@ img{
 }
 
 .redacted{
-    background-color: #D7CEC7;
-    color: #D7CEC7;
+    background-color: white;
+    color: black;
 }
 
 .half{
